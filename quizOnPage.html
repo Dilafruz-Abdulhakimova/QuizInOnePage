@@ -184,7 +184,6 @@
     </div>
 
 
-
     <script>
         function savol4(){
             document.getElementById('savollar3').style.display="none";
@@ -201,47 +200,51 @@
         <button id="wrong4.2" class="wrong" onclick="wrong4_2()">(a-b)(a-b)(a<sup>2</sup>+b<sup>2</sup> )</button>
         <button id="right4"  class="right" onclick="right4()">(a-b)(a+b)(a<sup>2</sup>+b<sup>2</sup> )</button>
         <button id="wrong4.3" class="wrong" onclick="wrong4_3()">(a-b)(a+b)(a<sup>2</sup>-b<sup>2</sup> )</button>
+
       
-        <a href="./quizOnPage.html" id="takrorlash3" style="display: none;"> Takrorlash</a>
-        <button type="button" id="savol4" onclick="" style="display: none;">4-savol</button>
+            <a href="./quizOnPage.html" id="takrorlash4" style="display: none;"> Takrorlash</a>
+            <button type="button" id="savol4" onclick="savol4()" style="display: none;">3-savol</button>
   
-        <script>
-            function right4() {      
-                document.getElementById('right4').style.backgroundColor='green';
-                document.getElementById('wrong4.1').style.backgroundColor='red';
-                document.getElementById('wrong4.2').style.backgroundColor='red';
-                document.getElementById('wrong4.3').style.backgroundColor='red';
-                document.getElementById('savol4').style.display="block";
-                document.getElementById('wrong4.1').removeAttribute('onclick');
-                document.getElementById('wrong4.2').removeAttribute('onclick');
-                document.getElementById('wrong4.3').removeAttribute('onclick');
-                integer +=1;
-                document.getElementById('natija').innerHTML="10/ "+integer; 
-            }
-            function wrong4_1() {
-                document.getElementById('wrong4.1').style.backgroundColor='red';
-                document.getElementById('wrong4.2').style.display="none";
-                document.getElementById('wrong4.3').style.display="none";
-                document.getElementById('right4').style.display="none";
-                document.getElementById('takrorlash4').style.display="block";
-            }
-            function wrong4_2() {
-                document.getElementById('wrong4.2').style.backgroundColor='red';
-                document.getElementById('wrong4.1').style.display="none";
-                document.getElementById('wrong4.3').style.display="none";
-                document.getElementById('right4').style.display="none";
-                document.getElementById('takrorlash4').style.display="block";
-            }
-            function wrong4_3() {
-                document.getElementById('wrong4.3').style.backgroundColor='red';
-                document.getElementById('wrong4.2').style.display="none";
-                document.getElementById('wrong4.1').style.display="none";
-                document.getElementById('right4').style.display="none";
-                document.getElementById('takrorlash4').style.display="block";
-            }
-        </script>
+    <script>
+        function right4() {      
+            document.getElementById('right4').style.backgroundColor='green';
+            document.getElementById('wrong4.1').style.backgroundColor='red';
+            document.getElementById('wrong4.2').style.backgroundColor='red';
+            document.getElementById('wrong4.3').style.backgroundColor='red';
+            document.getElementById('savol4').style.display="block";
+            document.getElementById('wrong4.1').removeAttribute('onclick');
+            document.getElementById('wrong4.2').removeAttribute('onclick');
+            document.getElementById('wrong4.3').removeAttribute('onclick');
+            integer +=1;
+            document.getElementById('natija').innerHTML="10/ "+integer; 
+        }
+        function wrong4_1() {
+            document.getElementById('wrong4.1').style.backgroundColor='red';
+            document.getElementById('wrong4.2').style.display="none";
+            document.getElementById('wrong4.3').style.display="none";
+            document.getElementById('right4').style.display="none";
+            document.getElementById('takrorlash4').style.display="block";
+        }
+        function wrong4_2() {
+            document.getElementById('wrong4.2').style.backgroundColor='red';
+            document.getElementById('wrong4.1').style.display="none";
+            document.getElementById('wrong4.3').style.display="none";
+            document.getElementById('right4').style.display="none";
+            document.getElementById('takrorlash4').style.display="block";
+        }
+        function wrong4_3() {
+            document.getElementById('wrong4.3').style.backgroundColor='red';
+            document.getElementById('wrong4.2').style.display="none";
+            document.getElementById('wrong4.1').style.display="none";
+            document.getElementById('right4').style.display="none";
+            document.getElementById('takrorlash4').style.display="block";
+        }
+      </script>
     </div>
 
+
+
+    
 
  <p id="natija">0</p>
 
