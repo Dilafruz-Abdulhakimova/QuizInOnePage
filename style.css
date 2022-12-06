@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./aa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.container{
+    width: auto;
+    height: auto;
+    background-color: rgba(74, 32, 111, 0.322);
+    box-shadow: 1px 2px 2px 2px #dacdef;
+}
+button{
+    width: 115px;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    margin: 10px;
+    
+
+}
+h2{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+    background-color: white;
+}
+#natija{
+    text-align: start;
+    font-size: 22px;
+}
