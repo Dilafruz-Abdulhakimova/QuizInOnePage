@@ -20,6 +20,7 @@ body{
     height: auto;
     background-color: rgba(74, 32, 111, 0.322);
     box-shadow: 1px 2px 2px 2px #dacdef;
+    cursor: pointer;
 }
 button{
     width: 115px;
@@ -29,8 +30,12 @@ button{
     background-color: black;
     border-color: white;
     margin: 10px;
+    transition: .5s;
     
 
+}
+button:hover{
+    transform: scale(1.2);
 }
 h2{
     width: auto;
@@ -42,5 +47,9 @@ h2{
 }
 #natija{
     text-align: start;
+    font-size: 22px;
+}
+#natija1{
+    text-align: center;
     font-size: 22px;
 }
