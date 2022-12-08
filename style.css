@@ -34,6 +34,10 @@ button{
     
 
 }
+a{
+   text-decoration: none;
+   font-size: 18px;
+}
 button:hover{
     transform: scale(1.2);
 }
@@ -52,4 +56,7 @@ h2{
 #natija1{
     text-align: center;
     font-size: 22px;
+}
+@media only screen and (max-width){
+    
 }
